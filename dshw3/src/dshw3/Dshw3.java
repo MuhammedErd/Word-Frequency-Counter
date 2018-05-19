@@ -99,7 +99,7 @@ public class Dshw3 {
         }
         System.out.println("java word counter"+fileName+ " 200");
         Dshw3 frequencyCounter = new Dshw3();
-        HashMap<String, Integer> wordsList = frequencyCounter.topWords(test           Input, 200);
+        HashMap<String, Integer> wordsList = frequencyCounter.topWords(testInput, 200);
        System.out.println(com[3]);
         Set set = wordsList.entrySet();
         Iterator iterator = set.iterator();
